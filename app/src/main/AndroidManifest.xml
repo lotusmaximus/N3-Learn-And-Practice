@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.com.myapplication">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Lession1Activity"
+            android:label="1課 - Lession 1"
+            android:theme="@style/AppTheme.NoActionBar2"/>
+        <activity android:name=".Lession2Activity"
+            android:label="2課 - Lession 2"
+            android:theme="@style/AppTheme.NoActionBar2"/>
+        <activity android:name=".Lession3Activity"
+            android:label="3課 - Lession 3"
+            android:theme="@style/AppTheme.NoActionBar2"/>
+        <activity android:name=".Lession4Activity"
+            android:label="4課 - Lession 4"
+            android:theme="@style/AppTheme.NoActionBar2"/>
+        <activity android:name=".Lession5Activity"
+            android:label="5課 - Lession 5"
+            android:theme="@style/AppTheme.NoActionBar2"/>
+        <activity android:name=".Lession6Activity"
+            android:label="6課 - Lession 6"
+            android:theme="@style/AppTheme.NoActionBar2"/>
+        <activity android:name=".Lession7Activity"
+            android:label="7課 - Lession 7"
+            android:theme="@style/AppTheme.NoActionBar2"/>
+        <activity android:name=".Lession8Activity"
+            android:label="8課 - Lession 8"
+            android:theme="@style/AppTheme.NoActionBar2"/>
+    </application>
+
+</manifest>

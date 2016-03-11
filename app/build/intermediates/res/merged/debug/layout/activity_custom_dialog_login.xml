@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutParent"
+    android:orientation="vertical" 
+    android:padding="10dp"
+    android:background="#99000000">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#E5E5E5"
+        android:padding="10dp"
+        android:orientation="vertical"
+        
+        android:clickable="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Remove this word?"
+                android:textSize="17sp"
+                android:textColor="#616161"
+                 />
+
+
+        </LinearLayout>
+
+
+		<LinearLayout 
+		    android:weightSum="2"
+		    android:layout_width="match_parent"
+		    android:layout_height="40dp"
+		    android:layout_marginTop="10dp"
+		    android:orientation="horizontal">
+		    <Button 
+		        android:id="@+id/btCancel"
+		        android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:background="#63B8FF"
+		        android:text="Cancel"
+		        android:layout_marginRight="4dp"
+                android:textColor="#FFFFFF"/>
+		    
+		    <Button 
+		        android:id="@+id/btLogin"
+		        android:layout_width="0dp"
+		        android:background="#63B8FF"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:text="Remove"
+                android:textColor="#FFFFFF"/>
+		</LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLessionBig">#66F9FBE7</color>
+    <color name="colorLessionSmall">#44F9FBE7</color>
+    <color name="buttonColor">#7700BCD4</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="brand_primary">#FF5620</color>
+    <color name="brand_primary_dark">#E74800</color>
+    <color name="brand_accent">#FE9700</color>
+</resources>

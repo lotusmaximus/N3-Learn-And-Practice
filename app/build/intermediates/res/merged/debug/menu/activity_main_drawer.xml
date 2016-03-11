@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_practice"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Practice" />
+
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Test" />
+        <item
+            android:id="@+id/nav_jlpt"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="JLPT" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="About" />
+    </group>
+
+
+
+</menu>
